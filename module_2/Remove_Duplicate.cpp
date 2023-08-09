@@ -3,7 +3,19 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-     
+
+
+void print(vector<int>& vec){
+    for(int i = 0; i < vec.size(); i++){
+        cout << vec[i] << " ";
+    }
+    cout << endl;
+
+    return;
+}
+
+
+
 int main() {
     
     vector<int> nums;
@@ -18,10 +30,14 @@ int main() {
         nums.push_back(num);
     }
 
-    int i = 0;
+    result.push_back(nums[0]);
     for(int j = 1; j < N; j++){
-        
+        if(nums[j] != nums[j-1]){
+            result.push_back(nums[j]);
+        }
     }
+
+    print(result);
 
     return 0;
 }
