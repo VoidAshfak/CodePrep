@@ -12,6 +12,7 @@ bool isFunny(string s){
             }else{
                 result = false;
                 break;
+                
             }
         }
     }
