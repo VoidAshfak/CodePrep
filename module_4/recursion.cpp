@@ -13,7 +13,7 @@ int fac(int n){
 int fib(int n){
     // base condition
 
-    return fib(n-1) + fib(n-2)
+    return fib(n-1) + fib(n-2);
 }
 
 int main()
