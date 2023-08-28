@@ -1,1 +1,10 @@
 https://www.youtube.com/watch?v=ngCos392W4w
+
+You are given two integers N,M. You want to tile a room of N×M. You have the infinite number of tiles of size 2^i × 2^i, where i=0,1,2,… so on. Your task is to find the minimum number of tiles required to fill the room with tiles.
+
+
+You are given an integer N. You have print all strings of length N such that Strings contain only characters 'a', 'b', 'c'. Some characters may be absent in the string. There are no equal adjacent characters. Print all the strings in lexicographically increasing order.
+
+You are given an integer S. Your task is find the number of arrays with positive integer whose sum is S.
+
+Alice and Bob are a playing different type of tic-tac-toe. The game ends when the board contains three consecutive X, at which point the player to have made the last move loses the game. Given a configuration of the 3x3 board, you have to find out the winner. Alice always makes the first move.

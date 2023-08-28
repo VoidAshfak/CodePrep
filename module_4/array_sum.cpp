@@ -21,7 +21,7 @@ int main() {
 
     int totalArrays = countArrays(S);
 
-    cout << "Number of arrays with sum " << S << ": " << totalArrays << endl;
+    cout << totalArrays << endl;
 
     return 0;
 }
